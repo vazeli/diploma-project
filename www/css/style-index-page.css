@@ -1,0 +1,50 @@
+*{
+	padding: 10px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.main_page{
+	background-color: #99ccff;
+
+	width: 900px;
+	margin: auto;
+}
+
+li{
+	list-style-type: none;
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.drop_item{
+	display: none;
+}
+
+.nav{
+
+	margin: auto;
+	padding: 20px;
+}
+
+.nav li,
+.nav a{
+	padding: 10px;
+}
+
+ li:hover > a{
+	background-color: #3399ff;
+}
+
+.list_drop:hover .drop_item{
+	display: block;
+	margin-left: 200px;
+}
+
+.nav_position{
+	text-align:center;
+}
